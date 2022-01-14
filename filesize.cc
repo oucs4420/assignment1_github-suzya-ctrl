@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
         int counter = 0;
         cout << "program: " << argv[0] << endl;
     // just to get you started, this is how to refer to the arguments that were passed
-    for (int arg = 1; arg < argc; arg+=1){
+    for (int arg = 1; arg < argc; arg++){
           //std::cout << "argv[" << arg << "]: " << argv[arg] << '\n' ;
         filename.open(argv[arg]);
         
